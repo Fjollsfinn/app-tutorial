@@ -1,0 +1,15 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": ["plugin:@typescript-eslint/recommended"],
+  "rules": {
+    "@typescript-eslint/no-var-requires": "off",
+    "@next/next/no-css-tags": "off",
+    "@typescript-eslint/ban-ts-ignore": "off"
+  }
+}
